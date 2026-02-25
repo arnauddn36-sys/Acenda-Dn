@@ -18,15 +18,15 @@ header {
 position: absolute;
 padding: 50px;
 display: flex;
-justify-content: space-between;
-align-items: center;
-
+justify-content: space-between;;
 width: 100%;
 box-sizing: border-box;
 
 }
-.navbar a {
+.navbar ul {
+    display: flex ;
     color:white
+    
 
 }
 .navbar .logo {
