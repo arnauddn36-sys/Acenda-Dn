@@ -37,11 +37,7 @@ align-items: center;
 .navbar .nav-links ul li {
     margin:0 25px;
 }
-.navbar .nav-links ul li.active a {
-    color: red;
-    font-weight: 600;
- }
+
 @media screen and (max-width: 900px) {
-    
     
 }
