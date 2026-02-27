@@ -21,19 +21,27 @@ display: flex;
 justify-content: space-between;;
 width: 100%;
 box-sizing: border-box;
+align-items: center;
 
 }
-.navbar ul {
-    display: flex ;
-    color:white
-    
-
+.navbar a {
+  color: white;
 }
 .navbar .logo {
     font-size: 2em;
     font-weight: bold;
 }
-.navbar.nav-links ul {
+.navbar .nav-links ul {
     display: flex;
 }
-
+.navbar .nav-links ul li {
+    margin:0 25px;
+}
+.navbar .nav-links ul li.active a {
+    color: red;
+    font-weight: 600;
+ }
+@media screen and (max-width: 900px) {
+    
+    
+}
